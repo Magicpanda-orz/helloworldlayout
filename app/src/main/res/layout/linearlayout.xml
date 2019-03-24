@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".helloworld"
+android:orientation="vertical"
+android:background="#000000">
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:layout_marginTop="3dip"
+        android:layout_marginLeft="3dip"
+        android:textColor="#ffffff"
+        tools:text="One,One"/>
+
+    <Button
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dip"
+        android:layout_marginTop="3dip"
+        android:background="#000000"
+        android:textColor="#ffffff"
+        tools:text="One,Two" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dip"
+        android:layout_marginTop="3dip"
+        android:background="#000000"
+        android:textColor="#ffffff"
+        tools:text="One,Three" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:layout_marginTop="3dip"
+        android:layout_marginLeft="3dip"
+        android:textColor="#ffffff"
+        tools:text="One,Four"/>
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:layout_marginLeft="3dip"
+        android:layout_marginTop="3dip"
+        android:text="Two,One"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dip"
+        android:layout_marginTop="3dip"
+        android:background="#000000"
+        android:text="Two,Two"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dip"
+        android:layout_marginTop="3dip"
+        android:background="#000000"
+        android:text="Two,Three"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:layout_marginLeft="3dip"
+        android:layout_marginTop="3dip"
+        android:textColor="#ffffff"
+        android:text="Two,Four"/>
+
+</LinearLayout>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+
+    <Button
+        android:layout_width="99dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dip"
+        android:layout_marginTop="3dip"
+        android:background="#000000"
+        android:text="Three,One"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dip"
+        android:layout_marginTop="3dip"
+        android:background="#000000"
+        android:text="Three,Two"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:layout_width="103dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dip"
+        android:layout_marginTop="3dip"
+        android:background="#000000"
+        android:text="Three,Three"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dip"
+        android:layout_marginTop="3dip"
+        android:background="#000000"
+        android:text="Three,Four"
+        android:textColor="#ffffff" />
+
+</LinearLayout>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:layout_marginLeft="3dip"
+        android:layout_marginTop="3dip"
+        android:text="Four,One"
+        android:textColor="#ffffff" />
+
+    <Button
+
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dip"
+        android:layout_marginTop="3dip"
+        android:background="#000000"
+        android:text="Four,Two"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:layout_marginTop="3dip"
+        android:layout_marginLeft="3dip"
+        android:textColor="#ffffff"
+        android:text="Four,Three"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:layout_marginLeft="3dip"
+        android:layout_marginTop="3dip"
+        android:textColor="#ffffff"
+        android:text="Four,Four"/>
+
+</LinearLayout>
+
+</LinearLayout>
